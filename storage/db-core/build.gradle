@@ -1,0 +1,9 @@
+dependencies {
+    implementation project(':core:core-enum')
+    api 'org.springframework.boot:spring-boot-starter-data-jpa'
+    api 'org.springframework.boot:spring-boot-starter-graphql:3.3.0'
+    api 'com.graphql-java-kickstart:playground-spring-boot-starter:11.0.0'
+    api 'com.graphql-java-kickstart:graphql-java-tools:11.1.0'
+    runtimeOnly 'com.mysql:mysql-connector-j'
+    runtimeOnly 'com.h2database:h2'
+}
